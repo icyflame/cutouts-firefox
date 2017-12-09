@@ -1,19 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "Cutouts: Firefox extension",
-    "description": "Cut out a portion of a webpage and store inside the Cutouts bookmarker",
-    "version": "1.0",
-    "homepage_url": "https://cutouts.siddharthkannan.in",
+  "manifest_version": 2,
+  "name": "Cutouts: Firefox extension",
+  "description": "Cut out a portion of a webpage and store inside the Cutouts bookmarker",
+  "version": "1.0",
+  "homepage_url": "https://cutouts.siddharthkannan.in",
 
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
-    },
+  "icons": {
+    "60": "icons/cutouts-60.png",
+    "40": "icons/cutouts-40.png"
+  },
 
-    "permissions": [
-        "activeTab",
-        "contextMenus",
-        "tabs"
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "tabs"
     ]
 }
