@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Cutouts: Firefox extension",
   "description": "Cut out a portion of a webpage and store inside the Cutouts bookmarker",
-  "version": "1.0",
+  "version": "1.0.1",
   "homepage_url": "https://cutouts.siddharthkannan.in",
 
   "icons": {
