@@ -8,6 +8,7 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
     const pageLink = info.pageUrl;
     const quote = info.selectionText;
+    const title = tab.title;
     const tags = [ ];
     const author = "";
 
@@ -15,7 +16,8 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
     let fullUrl = baseUrl + "?link=" +
                     encodeURIComponent(pageLink) + "&quote=" +
-                    encodeURIComponent(quote);
+                    encodeURIComponent(quote) + "&title=" +
+                    encodeURIComponent(title);
 
     browser.tabs.create({
       url: fullUrl,
